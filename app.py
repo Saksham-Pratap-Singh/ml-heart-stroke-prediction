@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load model and preprocessing tools
-model = joblib.load(r"C:/Users/hp/OneDrive/Desktop/ML_PROJECT/KNN_heart.pkl")
-scaler = joblib.load(r"C:/Users/hp/OneDrive/Desktop/ML_PROJECT/scaler.pkl")
-expected_columns = joblib.load(r"C:/Users/hp/OneDrive/Desktop/ML_PROJECT/columns.pkl")
+model = joblib.load("KNN_heart.pkl")
+scaler = joblib.load("scaler.pkl")
+expected_columns = joblib.load("columns.pkl")
 
 # App title and instructions
 st.title("💓 Heart Stroke Prediction")
